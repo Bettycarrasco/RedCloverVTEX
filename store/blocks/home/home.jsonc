@@ -6,28 +6,39 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
-      "rich-text#shelf-title",
+      "back-to-top-button",
+      "rich-text#shelf-title",/*titulo de vitrina*/
       "flex-layout.row#shelf",
+      "rich-text#shelff-title",
+      "flex-layout.row#shelff",
       "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      //"rich-text#question",
+      //"rich-text#link",
       "newsletter"
     ]
   },
-
+  "back-to-top-button": {
+    "props": {
+      "displayThreshold": 300,
+      "display": "caret-icon"
+        }
+  },
+  /*primer Carousel desde las comillas dobles hasta antes del # es el nombre del blocks y desde el# hasta las doble comillas es el identificador, podemos ulilizar el block con otro idenficador diferente*/
   "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "height": 570,
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "https://drive.google.com/uc?id=1f28Tvz9jOSkMl6NeonSAjN-IuCLdbsRE",
+          "mobileImage": "https://drive.google.com/uc?id=1kBmYl3mPRkZ2bPyzeGnyDVd9ELz7uGOB"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "https://drive.google.com/uc?id=1kdZjZ_LiGh-BekRJZUXQWoEzg9jtqY2o",
+          "mobileImage": "https://drive.google.com/uc?id=1yTqoSjDDoBcnStUewUrmr-gRk1ThRUEU"
         }
       ]
     }
@@ -40,24 +51,55 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "desktopOnly",/*flechas del carousel*/
       "blockClass": "carousel"
     }
   },
-
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Deco Bazar",/*tambien entre las comillas podes poner [visita redclover](www.google.com)*/
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelff-title": {
+    "props": {
+      "text": "## Deco Interior",
       "blockClass": "shelfTitle"
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
+      "category": "36/37",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+
+  "flex-layout.row#shelff": {
+    "children": [
+      "list-context.product-list#demo2"
+    ]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "category": "36/45",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
@@ -73,28 +115,25 @@
       "blockClass": "shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
+      "imageUrl": "https://drive.google.com/uc?id=1oCkmFrij_6ajLx8HxOpESwNLEi1OWNoK",
+      "headline": "BLACK FRIDAY",
+      "callToActionText": "DESCUBRIR",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
   },
-
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
     }
   },
-
   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",

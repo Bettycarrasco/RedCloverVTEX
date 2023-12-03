@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -80,9 +80,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://drive.google.com/uc?id=1FE4Yz2QpTMLFWAQm1zSY-cjMdESPs53q",
       "width": "180",
-      "height": "12"
+      "height": "80"
     }
   },
   "header-layout.mobile": {
