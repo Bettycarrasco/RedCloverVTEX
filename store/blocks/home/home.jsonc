@@ -23,7 +23,7 @@
       "display": "caret-icon"
         }
   },
-  /*primer Carousell desde las comillas dobles hasta antes del # es el nombre del blocks y desde el# hasta las doble comillas es el identificador, podemos ulilizar el block con otro idenficador diferente*/
+  /*primer Carousel desde las comillas dobles hasta antes del # es el nombre del blocks y desde el# hasta las doble comillas es el identificador, podemos ulilizar el block con otro idenficador diferente*/
   "list-context.image-list#demo": {
     "children": [
       "slider-layout#demo-images"
