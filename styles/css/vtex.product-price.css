@@ -1,5 +1,5 @@
 .listPrice {
-  color: #727273;
+  color: #970ddc;
   margin-bottom: .25rem;
   font-size: 1rem;
 }
@@ -76,4 +76,15 @@
   vertical-align: baseline;
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+/*css cuotas*/
+.installments--summary{
+  color:#ffffff;
+  background-color: #8BC34A;
+  border-radius: 1000px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom:10px;
+  font-weight: bold;
 }

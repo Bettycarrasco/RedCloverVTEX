@@ -1,9 +1,9 @@
 .notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
+  background-color: #dc18a7;
+  color: #e4e4f0;
   font-weight: 700;
   font-size: 12px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .infoCardContainer--info-card-home {
@@ -14,10 +14,13 @@
 }
 
 .newsletter {
-  background-color: #dc18a7; /*footer*/
+  /*background-color: #dc18a7;*/
+  /*footer*/
   max-width: 1528px;
   margin: 0 auto;
   /*max-height: 100%;*/
+  background-image: url("https://drive.google.com/uc?id=1jSl2RIDBZa_K5GlvGDEsmcLvd8NXJZuM");
+  height: 500px;
 }
 
 .newsletter .container {
@@ -70,15 +73,19 @@
   .newsletter .container {
     padding: 140px;
   }
+
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
+
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
   }
+
   .infoCardContainer--info-card-home .infoCardImageContainer {
     width: 70%;
   }
+
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
@@ -111,4 +118,8 @@
 
 .image {
   image-rendering: -webkit-optimize-contrast;
+}
+
+.imageElement--wp {
+  z-index: auto;
 }
