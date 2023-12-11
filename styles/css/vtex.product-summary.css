@@ -40,3 +40,10 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.imageNormal:hover {
+  box-shadow: 10px 10px 10px #a47e74; /* Ajusta los valores según sea necesario */
+  transition: box-shadow 0.9s ease; /* Agrega una transición suave */
+}
+
+

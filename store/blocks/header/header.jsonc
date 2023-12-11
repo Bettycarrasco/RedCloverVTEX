@@ -94,8 +94,8 @@
       "title": "Logo",
       "href": "/",
       "url": "https://drive.google.com/uc?id=1FE4Yz2QpTMLFWAQm1zSY-cjMdESPs53q",
-      "width": "180",
-      "height": "80"
+      "width": "130",
+      "height": "60"
     }
   },
   "header-layout.mobile": {
@@ -142,9 +142,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "https://drive.google.com/uc?id=1FE4Yz2QpTMLFWAQm1zSY-cjMdESPs53q",
+      "width": "120",
+      "height": "60"
     }
   }
 }

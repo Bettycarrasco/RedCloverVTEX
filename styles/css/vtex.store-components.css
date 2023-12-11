@@ -19,8 +19,16 @@
   max-width: 1528px;
   margin: 0 auto;
   /*max-height: 100%;*/
-  background-image: url("https://drive.google.com/uc?id=1jSl2RIDBZa_K5GlvGDEsmcLvd8NXJZuM");
+  background-image: url("https://drive.google.com/uc?id=1NOo9LTpgrKSagQ1RxnvV-NR51ZGG1Bz2");
   height: 500px;
+}
+
+@media (max-width: 425px) {
+  .newsletter {
+    background-image: url("https://drive.google.com/uc?id=14N5O4F2Yn_AHgcj04r5V3oajlPCaXmDY");
+    height: 300px;
+  }
+
 }
 
 .newsletter .container {
@@ -122,4 +130,18 @@
 
 .imageElement--wp {
   z-index: auto;
+}
+
+.searchBarContainer {
+  width: 450px;
+}
+
+.logoImage--logofoot {
+  position: absolute;
+  /* Fija el elemento en la pantalla */
+  left: 59%;
+  /* Centra el logo horizontalmente */
+  transform: translateX(-50%);
+  /* Ajusta para centrar el logo correctamente */
+  top: 3100px;
 }

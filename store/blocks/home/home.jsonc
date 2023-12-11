@@ -46,7 +46,7 @@
       "src": "https://drive.google.com/uc?id=10BMa43XrA5d48Z0U26MGjZEHrIG6jeC1",
       "maxHeight": 50,
       "link": {
-        "url": "https://api.whatsapp.com/send/?phone=549381477279&text&type=phone_number&app_absent=0target=_blank"
+        "url": "https://api.whatsapp.com/send/?phone=5493814777279&text&type=phone_number&app_absent=0target=_blank"
       }
     }
   },
@@ -125,7 +125,7 @@
   "image#shelf-02-col-01": {
     "title": "Imagen Shelf #1",
     "props": {
-      "src": "https://drive.google.com/uc?id=1bYKktEWMsO48BS9kQvwax1o7z7bW7O-q"
+      "src": "https://drive.google.com/uc?id=1I5QMjcuTiW-UE3NVzANo085LkEoZdSOG"
     }
   },
   "flex-layout.col#shelf-02-col-2": {
@@ -229,7 +229,7 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://drive.google.com/uc?id=1oCkmFrij_6ajLx8HxOpESwNLEi1OWNoK",
+      "imageUrl": "https://drive.google.com/uc?id=1cj_mcF3nzEt_Anc_tarXE40ntmX99DCD",
       "headline": "BLACK FRIDAY",
       "callToActionText": "DESCUBRIR",
       "callToActionUrl": "/sale/d",

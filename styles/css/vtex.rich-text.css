@@ -5,9 +5,13 @@
 }
 
 .container--shelfTitle {
-  color: #727273;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 20px;
   justify-content: center;
   text-align: center;
+  z-index: -1;
+  background-image: url(https://drive.google.com/uc?id=1E7XHsRvq7Rdx5yiW8QBQqyLeVHZZyHFQ);
 }
 
 .headingLevel2--shelfTitle {
@@ -88,3 +92,4 @@
     line-height: 1.3em;
   }
 }
+

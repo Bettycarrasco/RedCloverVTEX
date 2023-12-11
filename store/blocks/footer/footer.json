@@ -1,13 +1,27 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
+      "logo",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
+  },
+  "logo": {
+    "props": {
+      "url": "https://drive.google.com/uc?id=1FE4Yz2QpTMLFWAQm1zSY-cjMdESPs53q",
+      "width": 152,
+      "height": 60,
+      "mobileWidth": 90,
+      "mobileHeight": 32,
+      "blockClass": "logofoot"
+    }
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
@@ -24,7 +38,6 @@
       "paddingBottom": 3
     }
   },
-
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -51,32 +64,37 @@
       ]
     }
   },
-
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": [
+      "accepted-payment-methods"
+    ],
     "props": {
       "blockClass": "payment-methods"
     }
   },
   "accepted-payment-methods": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "paymentMethods": [
+        "MasterCard",
+        "Visa",
+        "Diners Club"
+      ]
     }
   },
-
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "rich-text#footer"
+    ],
     "props": {
       "blockClass": "credits"
     }
   },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "",
       "blockClass": "footer"
     }
   },
-
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
@@ -84,7 +102,9 @@
     ]
   },
   "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
     "props": {
       "blockClass": "payment-methods",
       "paddingTop": 4,
@@ -109,11 +129,13 @@
       "paddingTop": 4,
       "paddingBottom": 4
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "",
       "blockClass": "footer"
     }
   }
