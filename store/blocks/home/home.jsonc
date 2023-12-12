@@ -12,6 +12,8 @@
       "flex-layout.row#shelf",
       "rich-text#shelff-title",
       "flex-layout.row#shelff",
+      "rich-text#shelf-title3",
+      "flex-layout.row#shelf03",
       "info-card#home",
       //"rich-text#question",
       //"rich-text#link",
@@ -223,6 +225,71 @@
       "blockClass": "shelf"
     }
   },
+  //titulo3
+  "rich-text#shelf-title3": {
+    "props": {
+      "text": "## Navidad",
+      "blockClass": "shelfTitle"
+    }
+  },
+  //vitrina3
+  "flex-layout.row#shelf03": {
+    "children": [
+      "flex-layout.row#shelfff",
+      "flex-layout.row#shelf#3"
+    ],
+    "props":{
+      "fullWidth":true,
+      "blockClass": "shelf-01"
+    }
+  },
+  "flex-layout.row#shelfff":{
+    "title":"Imagen Shelf #3",
+    "props":{
+      "width":"75%"
+    },
+    "children":[
+      "list-context.product-list#demo1"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "category": "32/33",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#shelf#3":{
+    "props":{
+      "width":"25%"
+    },
+    "children":[
+      "image#shelf-03-col-01"
+    ]
+  },
+  "image#shelf-03-col-01":{
+  "props":{
+    "src":"https://drive.google.com/uc?id=1h1dg8ul8NskHbA88zSv7lsMlBdoXm2vF"
+  }
+  },
+
   //card
   "info-card#home": {
     "props": {
